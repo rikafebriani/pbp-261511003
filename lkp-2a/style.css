@@ -1,0 +1,76 @@
+
+/* Pengaturan dasar */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #FFF0F6;
+    color: #4A3040;
+}
+
+/* Header */
+header {
+    background-color: #F48FB1;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navigasi */
+nav {
+    background-color: #F8BBD0;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #880E4F;
+    text-decoration: none;
+    margin: 15px;
+}
+
+/* Section */
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: #EC407A;
+}
+
+/* Layout keahlian menggunakan Grid */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+/* Card */
+.card {
+    background-color: #FCE4EC;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #F8BBD0;
+}
+
+
+
+/* Footer */
+footer {
+    background-color: #F48FB1;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
